@@ -1,0 +1,6 @@
+body {
+  background-image: url(/src/images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
