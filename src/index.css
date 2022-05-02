@@ -100,8 +100,9 @@ body {
 
 .cancel {
   font-size: 12px;
-  color: rgb(57, 21, 143);
+  color: hsl(224, 23%, 55%);
   margin-top: 20px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 40px;
+
 }
