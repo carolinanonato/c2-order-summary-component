@@ -5,7 +5,7 @@ import music from '../assets/images/icon-music.svg'
 function Main() {
     return (
         <div className='main-container'>
-            <img src={hero} alt="" />
+            <img src={hero} className="hero-image" alt="" />
             <h3>Order Summary</h3>
             <p className='main-paragraph'>You can now listem to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
             <div className="main-price">
