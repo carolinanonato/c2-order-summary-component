@@ -3,17 +3,18 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .main-container {
-  background-color: hsl(225, 100%, 98%);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: fit-content;
   border-radius: 20px;
-  width: 450px;
+  width: 350px;
   margin: 0 auto;
   margin-top: 80px;
   box-shadow: 2px 2px 8px hsl(224, 23%, 55%)
@@ -21,4 +22,65 @@ body {
 
 .hero-image {
   border-radius: 20px 20px 0 0;
+  width: 350px;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 25px;
+  color: hsl(223, 47%, 23%);
+  font-style: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.main-paragraph {
+  text-align: center;
+  width: 70%;
+  color: hsl(224, 23%, 55%);
+}
+
+.main-price {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+}
+
+.main-price img {
+  margin-left: 20px;
+}
+
+.main-plan {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+
+
+
+}
+
+.plan-type {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.plan-price {
+  margin-top: 0;
+  font-size: 14px;
+  color: hsl(223, 47%, 23%);
+}
+
+.main-price a {
+  font-size: 13px;
+  margin-left: 50px;
+  color: rgb(57, 21, 143);
+  font-weight: 900;
+
 }
