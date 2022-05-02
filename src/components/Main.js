@@ -17,7 +17,7 @@ function Main() {
                 <a href="#">Change</a>
             </div>
             <button className="main-button">Proceed to Payment</button>
-            <p>Cancel Order</p>
+            <p className='cancel'>Cancel Order</p>
         </div >
     )
 }

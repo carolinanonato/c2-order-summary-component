@@ -84,3 +84,24 @@ body {
   font-weight: 900;
 
 }
+
+.main-button {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 11px;
+  margin-top: 20px;
+  width: 80%;
+  height: 35px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 2px 5px hsl(224, 23%, 55%)
+}
+
+.cancel {
+  font-size: 12px;
+  color: rgb(57, 21, 143);
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
