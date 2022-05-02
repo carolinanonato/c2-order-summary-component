@@ -14,7 +14,7 @@ function Main() {
                     <p className="plan-type">Annual Plan</p>
                     <p className='plan-price'>$59.99/year</p>
                 </div>
-                <a href="#">Change</a>
+                <a href="http://www.google.com">Change</a>
             </div>
             <button className="main-button">Proceed to Payment</button>
             <p className='cancel'>Cancel Order</p>
